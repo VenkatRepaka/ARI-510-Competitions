@@ -1,0 +1,22 @@
+{
+  "model": "mlx-community/Qwen3-8B-4bit",
+  "system": "You are an average adult internet user judging content titles. Answer only with what is asked.",
+  "rating_prompts": {
+    "interest": "How interesting would a typical reader find this {kind} title?\nScale: 1 = not interesting at all, 2 = slightly, 3 = somewhat, 4 = fairly, 5 = very, 6 = extremely interesting.\nTitle: {title}\nAnswer with a single digit from 1 to 6.",
+    "click": "You are scrolling past this {kind}. How likely are you to click or open it, based only on its title?\nScale: 1 = would never click ... 6 = would definitely click.\nTitle: {title}\nAnswer with a single digit from 1 to 6."
+  },
+  "trait_prompts": {
+    "curiosity_gap": "Does this {kind} title deliberately hold back key information to make the reader curious (a curiosity gap)?\nTitle: {title}\nAnswer Yes or No.",
+    "emotional": "Does this {kind} title use emotional or emotionally charged language?\nTitle: {title}\nAnswer Yes or No.",
+    "exaggeration": "Does this {kind} title exaggerate or use hype (e.g. ALL CAPS, superlatives, sensational claims)?\nTitle: {title}\nAnswer Yes or No.",
+    "direct_address": "Does this {kind} title directly address the reader (e.g. 'you', 'your', a question to the reader)?\nTitle: {title}\nAnswer Yes or No.",
+    "missing_details": "Is this {kind} title missing details a reader would need to understand what it is about (vague or unclear without context)?\nTitle: {title}\nAnswer Yes or No."
+  },
+  "kind_names": {
+    "youtube": "YouTube video",
+    "reddit": "Reddit post",
+    "podcast": "podcast episode",
+    "article": "news article"
+  },
+  "readout": "next-token softmax over digits 1-6 (expected value) / Yes vs No"
+}

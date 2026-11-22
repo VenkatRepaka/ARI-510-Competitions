@@ -1,0 +1,10 @@
+{
+  "model": "mlx-community/Qwen3-8B-4bit",
+  "system": "You are an average adult internet user judging content titles. Answer only with what is asked.",
+  "prompt": "Which of these two titles would a typical reader find more interesting?\nA ({kind_a}): {title_a}\nB ({kind_b}): {title_b}\nAnswer with a single letter: A or B.",
+  "K": 12,
+  "pairs": 1126,
+  "seed": 42,
+  "position_bias_mean_P(A)": 0.5698262135766515,
+  "min_AB_mass": 0.9999999403953552
+}

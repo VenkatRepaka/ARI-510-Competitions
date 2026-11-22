@@ -1,0 +1,39 @@
+{
+  "model": "claude-opus-5-5",
+  "system": "You are simulating a panel of average adult internet users judging how interesting content titles are. Judge only from the title and its source type.",
+  "prompt": "How interesting would a typical reader find this {kind} title?\nScale: 1 = not interesting at all, 2 = slightly, 3 = somewhat, 4 = fairly, 5 = very, 6 = extremely interesting.\nTitle: {title}\nDifferent readers disagree, so give the probability that a randomly chosen typical reader would pick each score (p1..p6, each between 0 and 1, summing to 1).",
+  "schema": {
+    "type": "object",
+    "properties": {
+      "p1": {
+        "type": "number"
+      },
+      "p2": {
+        "type": "number"
+      },
+      "p3": {
+        "type": "number"
+      },
+      "p4": {
+        "type": "number"
+      },
+      "p5": {
+        "type": "number"
+      },
+      "p6": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "p1",
+      "p2",
+      "p3",
+      "p4",
+      "p5",
+      "p6"
+    ],
+    "additionalProperties": false
+  },
+  "effort": "low",
+  "readout": "structured JSON probabilities p1..p6, normalised -> expected value"
+}

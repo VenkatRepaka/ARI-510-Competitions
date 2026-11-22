@@ -1,0 +1,11 @@
+# Ignore everything at the top level ...
+/*
+# ... except this file and the title-interest project
+!/.gitignore
+!/what-makes-title-intresting/
+
+# Generated files inside the project
+.DS_Store
+__pycache__/
+# Cached Webis embeddings (~128 MB, over GitHub's 100 MB file limit; rebuilt by clickbait.ipynb)
+what-makes-title-intresting/features/webis_mpnet.npz
