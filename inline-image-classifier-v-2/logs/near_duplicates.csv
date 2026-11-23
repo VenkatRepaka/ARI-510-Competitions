@@ -1,0 +1,15 @@
+cos,split_a,split_b,y_a,y_b,file_a,file_b
+1.0,train,train,1,1,image_0074.png,image_0465.png
+0.999,train,train,1,1,image_0185.jpg,image_0267.jpg
+0.999,train,train,1,1,image_0204.jpg,image_0193.jpg
+0.999,train,validation,0,1,image_0446.jpg,image_0403.jpg
+0.998,train,train,0,1,image_0136.jpg,image_0087.jpg
+0.997,train,train,1,0,image_0067.jpg,image_0135.jpg
+0.99,train,train,0,0,image_1072.jpg,image_0252.jpg
+0.989,train,validation,0,0,image_0284.jpg,image_0289.jpg
+0.989,train,test,1,?,image_0047.jpg,image_0070.jpg
+0.975,train,train,1,1,image_0006.jpg,image_0024.jpg
+0.974,train,validation,1,1,image_0211.jpg,image_0173.jpg
+0.963,train,train,1,1,image_0227.jpg,image_0167.jpg
+0.961,train,train,1,1,image_0343.jpeg,image_0350.jpeg
+0.955,train,test,1,?,image_0200.jpg,image_0239.jpg

@@ -1,0 +1,9 @@
+siglip_so400m+quality        mlp      dev 0.882  cv 0.875±0.003  tuned 0.888@0.44
+siglip_so400m+quality        mlp_h64  dev 0.882  cv 0.875±0.001  tuned 0.888@0.33
+siglip_so400m+quality        mlp_strong dev 0.898  cv 0.876±0.005  tuned 0.890@0.35
+eva02_l+quality              mlp      dev 0.864  cv 0.871±0.008  tuned 0.878@0.38
+eva02_l+quality              mlp_h64  dev 0.864  cv 0.871±0.003  tuned 0.882@0.66
+eva02_l+quality              mlp_strong dev 0.873  cv 0.880±0.002  tuned 0.886@0.46
+dinov2_l+siglip_so400m+eva02_l+quality mlp      dev 0.857  cv 0.877±0.004  tuned 0.891@0.23
+dinov2_l+siglip_so400m+eva02_l+quality mlp_h64  dev 0.873  cv 0.877±0.005  tuned 0.891@0.26
+dinov2_l+siglip_so400m+eva02_l+quality mlp_strong dev 0.857  cv 0.877±0.007  tuned 0.890@0.27

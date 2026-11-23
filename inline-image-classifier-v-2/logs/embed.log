@@ -1,0 +1,40 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[dinov2_l] 100/1177  58s
+[dinov2_l] 200/1177  120s
+[dinov2_l] 300/1177  177s
+[dinov2_l] 400/1177  234s
+[dinov2_l] 500/1177  290s
+[dinov2_l] 600/1177  349s
+[dinov2_l] 700/1177  402s
+[dinov2_l] 800/1177  460s
+[dinov2_l] 900/1177  514s
+[dinov2_l] 1000/1177  572s
+[dinov2_l] 1100/1177  628s
+[dinov2_l] 1177/1177  675s
+[dinov2_l] saved (1177, 2048) in 675s
+[siglip_so400m] 100/1177  52s
+[siglip_so400m] 200/1177  107s
+[siglip_so400m] 300/1177  162s
+[siglip_so400m] 400/1177  218s
+[siglip_so400m] 500/1177  273s
+[siglip_so400m] 600/1177  329s
+[siglip_so400m] 700/1177  381s
+[siglip_so400m] 800/1177  435s
+[siglip_so400m] 900/1177  485s
+[siglip_so400m] 1000/1177  541s
+[siglip_so400m] 1100/1177  595s
+[siglip_so400m] 1177/1177  639s
+[siglip_so400m] saved (1177, 1152) in 643s
+[eva02_l] 100/1177  32s
+[eva02_l] 200/1177  70s
+[eva02_l] 300/1177  107s
+[eva02_l] 400/1177  145s
+[eva02_l] 500/1177  181s
+[eva02_l] 600/1177  221s
+[eva02_l] 700/1177  256s
+[eva02_l] 800/1177  291s
+[eva02_l] 900/1177  326s
+[eva02_l] 1000/1177  363s
+[eva02_l] 1100/1177  397s
+[eva02_l] 1177/1177  427s
+[eva02_l] saved (1177, 768) in 428s

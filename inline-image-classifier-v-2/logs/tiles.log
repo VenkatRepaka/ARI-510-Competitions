@@ -1,0 +1,14 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[eva02_l] 100/1177  130s  eta 1405s
+[eva02_l] 200/1177  264s  eta 1291s
+[eva02_l] 300/1177  396s  eta 1158s
+[eva02_l] 400/1177  528s  eta 1025s
+[eva02_l] 500/1177  661s  eta 895s
+[eva02_l] 600/1177  795s  eta 764s
+[eva02_l] 700/1177  925s  eta 630s
+[eva02_l] 800/1177  1056s  eta 498s
+[eva02_l] 900/1177  1184s  eta 364s
+[eva02_l] 1000/1177  1314s  eta 233s
+[eva02_l] 1100/1177  1445s  eta 101s
+[eva02_l] 1177/1177  1551s  eta 0s
+[eva02_l] saved (1177, 9, 768)
