@@ -1,0 +1,257 @@
+id,text,sufficiency
+ID1,"Title: Outlook Inbox not updating
+
+Question:
+Hello, when using the Mail & Calender App on Win 10, everything works fine. But now Windows forces me to use the new Outlook App. When using Outlook my Inbox is not updating, it shows me 2 months old mails on top of the list. Same goes for using the web version outlook.com. My inbox is not updating even though I get new mails everyday. I have to search new mails by using the search bar. I tried to do some research and found blog and forum posts about deleting the Outlook cache. I tried it, I could't find the folder so I went and deinstalled Outlook and installed the old Mail App. Everything worked fine for 2 days. I received new mails like I should. But then again I got forced to move to the new Outlook App. Now it shows me my 2 months old Mails again. What confuses me is why the web version is not working correctly too? My local cache files shouldn't have any influence on the web version. Anybody here that can help me? Thanks in advance.",0
+ID3,"Title: Mac Mail - Outlook Exchange issues
+
+Question:
+I'm having a weird issue with my Outlook, 365, Exchange account in Mac Mail. This only started being a problem in the last two day. My inbox won't refresh. New messages don't come in. Messages filed or deleted on another Mac or iPhone do not move/remove. The only way I can get the Inbox to fresh to match my other devices, including the browser window version is to go Rebuild under the Messages menu in Mac Mail. I can send just fine. Clicking in to folders seems just fine as far as showing and matching what is inside. Its JUST a problem with the Inbox never updating without support. The Mac Pro having the problem is on 10.15.7. My MacBook Pro Late 2019 running the same OS was having the problem all day yesterday but it has since be updated to Big Sur and now is working correctly. So seems to only be a Catalina issue but I'm nearly 100% sure it was a problem before I updated the Mac Pro to 10.15.7 yesterday. I need to hold off on updating the Pro to Big Sur just yet so hoping to get a fix until then.",0
+ID7,"Title: How delete cache in Outlook
+
+Question:
+Hi Team. How delete cache in Outlook client? Outlook options have one option for clean auto complete, but this option It's not what I need. I need clean cache for delete all email address. Thanks,",1
+ID8,"Title: Favorites Section Missing from Outlook Classic
+
+Question:
+On the advice of this forum, I made the switch from the new Outlook to Outlook Classic on my new MS Surface Pro Laptop - THANK YOU FORUM. I have a problem with Outlook Classic that compared to my problem with the New Outlook, is less of an issue. The Favorites section that is usually above the individual accounts on the left is not there. I can right click on the Inbox to each of my accounts and then click on Add to Favorites and instead of the account showing up on the top, where there is a blank section that is typically where the Favorites are, I get a tag on the left, which are stacked on one another and all are labeled Inbox instead of an account identifier. Note that in the Account settings, a shortcut account ID is in the The 'Classic' Outlook on my old computer was fine in this area.",0
+ID9,"Title: New Outlook - Cannot connect to server
+
+Question:
+A few of us in the IT Department are trying to preview the new Outlook. When we click the slider the new Outlook launches, sits at the Setting up account for a few minutes, then errors out with Cannot connect to server. We can get back to the old Outlook by running outlook.exe /safe, but the new Outlook will not connect for anyone even when off our network and no VPN is running. I cannot find any articles that show changes in requirements from the old application to the new one. Anybody seen this issue?",0
+ID10,"Title: Outlook 365 Outlook Install Does Not See Local Exchange Account
+
+Question:
+Just beginning our Office 365 deployment to the desktops and will migrate to the hosted exchange model after we've deployed the software. But we've run into one caveat. If we install Office 365 on machines that have had a previous version of Office installed, and an account configured in Outlook, the Office 365 sees that and properly configures Outlook to point to our local exchange server. If we install Office 365 on a new machine that did NOT have a previous user profile/Outlook configured, it automatically configures the user account to point to the outlook.office.com hosted server. What do I need to do to allow me to properly configure the user account to point to our local exchange server until that point in time when we want to migrate to the hosted exchange?",0
+ID11,"Title: Microsoft Outlook..
+
+Question:
+Please help.. When I am responding to an email, everything that was in the email prior to my response is attached. How do I get rid of all those responses before mine... Same email? I only want my response visible to group I am responding to. I am getting complaints and don't know how to fix it..",1
+ID13,"Title: New Outlook stopped auto-updating inbox
+
+Question:
+Hi, I switched to the New Outlook a while ago (using for an M365 enterprise account). It worked fine for a while, then it started updating the inbox view when new mail arrived. That is, if Outlook is open with the Inbox folder displayed and a new mail arrives, the unread count next to Inbox in the folder pane increases by one, but the new mail is not displayed. Only when I switch to another folder and then back to Inbox do I see the new mail.It works fine in the browser (although it looks 100% identical otherwise). You have Microsoft Outlook Version 1.2023.405.100 (Production).Client Version is 20230331005.09",0
+ID14,"Title: Groups not showing up in Outlook 2016
+
+Question:
+I have Groups setup in 365 but I cannot see them in the left panel of Outlook 2016, and when I browse for Groups, I do not see the Groups. Any ideas? Thank you.",1
+ID16,"Title: Can't add group of calendars in Outlook
+
+Question:
+Hi allWe have, for a long time, had a mail-enabled security group, containing all our meeting rooms, in O365. Then in Outlook calendar we select add calendar -> from address book and then select the group. Normally this would add a calendar group containg all the calendars of the members of the group - and even update the members if we add new meeting rooms etc. making it easy for all employees to always have access to all meeting room calendars.For some reason this function has stopped working recently. Now, when I open the group I get the error: We can't add the calendars of everyone in this distribution list (name of group). Please add each calendar individually. It still works on older computers - mine for example. But it does not work on any of the new computers I have set up.I have tried to create a new group and only add one meeting room - it does not work either.Any suggestions? - it's driving me nuts 🙂",0
+ID17,"Title: Windows 11 and Outlook passwords mismatch
+
+Question:
+I am a Windows 11 and Outlook 2016 (from Office 2016 package) user. After changing the password for Windows system, the Outlook password no longer works. There is a message asking for password in Outlook. The old password doesn’t work. Is there any connection between Windows 11 and Outlook passwords? Can this be turned off?",0
+ID18,"Title: Shape distortion in excel older version and office 365 (At office vs home)
+
+Question:
+Actually, if 3 rounds are in line, one change to oval. not other 2. Similarly distortion happens to rectangles and texts too",1
+ID19,"Title: WORD 2024 printing error
+
+Question:
+My Acrobat copy has expired, Adobe are charging a ridiculous price for a new subscription so I got an alternative program which should be enough for my limited use. I have a 48 page file to print so converted the PDF to a WORD file. It displays properly in WORD - full page and double sided but when I print in WORD, it prints a small cropped portion of the page and single sided. Any suggestions? MB",1
+ID29,"Title: green bars in Word document
+
+Question:
+Green bars cover my entire Word doc on PC (and sometimes on Mac; I use Word on both devices), and I don't know how to get rid of them. I have ProWritingAid installed, but I have it turned off.",1
+ID44,"Title: How to convert pictures to pdf on iPhone?
+
+Question:
+Hi everyone,I’m trying to convert several pictures on my iPhone into PDF files so I can email or upload them more easily. Sometimes I need to combine the pictures into a single PDF, but I also need to batch-convert them so that each picture becomes a separate PDF. I’ve seen suggestions about using the Files app or the Print menu, but I haven’t found a way to do this with either option.Is there a built-in way to do this on an iPhone, or can it be done through OneDrive or another Microsoft app? I’d like the pictures to remain in the correct order and stay clear without making the PDF unnecessarily large.Any advice would be appreciated. Thanks!",0
+ID53,"Title: Microsoft Forms Bug Hyperlinks Lost When Editing Section Subtitles
+
+Question:
+We have identified a reproducible issue in Microsoft Forms affecting hyperlinks in section subtitles. Existing formatted hyperlinks work correctly, and duplicating sections preserves them. Changing a section title also does not affect the hyperlinks. However, editing any content in a section subtitle causes all existing formatted hyperlinks to lose their hyperlink functionality. Newly inserted formatted hyperlinks also fail to persist after editing. Full URLs continue to work correctly. This suggests an issue with how Microsoft Forms processes and saves rich-text formatting in section subtitles. This was working till last week. Any ideas on how to go about it?",1
+ID58,"Title: I want to use Ctrl+Shift+Enter in Excel 365.
+
+Question:
+In Excel 365, I want to enter an array constant using Ctrl+Shift+Enter. But it doesn't work.Since I’m preparing for a certification, I need to enter the array constant using Ctrl+Shift+Enter so that it is recognized as the correct answer.Please help me!😭",0
+ID67,"Title: PowerPoint 2021 crashes when saving .ppsm files containing ActiveX controls
+
+Question:
+Hello,I believe I found a regression in recent Office 2021 builds.PowerPoint crashes every time I try to save a macro-enabled presentation as PowerPoint Show (*.ppsm) if the presentation contains Microsoft Forms (ActiveX) controls, such as:TextBoxComboBoxCheckBoxetc.Troubleshooting performedMicrosoft Support already assisted me through two remote sessions.We tested:Office license validationOnline Office RepairNew Windows user accountRegistry checksWindows servicesNone of these resolved the issue.ReproductionCreate a new PowerPoint presentation.Insert an ActiveX TextBox or ComboBox from Developer → TextBox.Choose Save As → PowerPoint Show (*.ppsm).Result: PowerPoint crashes.Tested Office versionsOffice 2602 (19725.20172) — Windows 11 21H2 — ✅ WorksOffice 2606 (20131.20154) — Windows 11 25H2 — ❌ CrashOffice 2607 (20228.20110) — Windows 11 21H2 — ❌ CrashOffice 2607 (20228.20110) — Windows 11 23H2 — ❌ CrashI reproduced the issue on three different computers.The last known working build is 2602 (19725.20172).The first confirmed failing build is 2606 (20131.20154).Saving as .pptm works correctly. Previously created .ppsm files also open and save correctly. Only creating or converting a presentation to .ppsm triggers the crash. If needed, I can also provide a minimal sample presentation that reproduces the issue.Thank you!",1
+ID71,"Title: Error installing Apps 365, command not supported.
+
+Question:
+I was performing an Online Repair for a user. It did the uninstall fine, but then threw this error.I tried to reinstall, same error. Used the MS Cleanup tool, ran SFC, cleared temp files, cache... Internet connection is stable. Disabled security software (Zscaler). I'm out of ideas. I'm hoping someone has seen this before. Thanks for any help!",1
+ID90,"Title: Power Query refresh order
+
+Question:
+How does Power Query handle the refresh order?Do I need to rename all queries in the order I need? i.e. A1_Query1; A2_Query2; A3_Query1+2Merged... and so on?",1
+ID98,"Title: Power Query Issue
+
+Question:
+Dear Experts, I have a Table as in the Input Sheet, and want to make a Table as in the Output Sheet.as below:-Could you please help share the power query function or the M Query or the Legacy Excel formulae which can achieve this? Basically , deleting all the empty cells in the input and shifting those cells up can do the job, but now sure how to achieve this. Thanks in Advance,Br,Anupam",0
+ID113,"Title: Unable to download Office365
+
+Question:
+When I try to download Office to my machine using https://portal.office.com/account/?ref=Harmony#installsThe page shows with no design",1
+ID139,"Title: Redirect folders favourites to OneDrive
+
+Question:
+Is it possible to redirect favourites folder to OneDrive for Business, using group policy? If so, how do i do this?",0
+ID168,"Title: Reset password to Admin center
+
+Question:
+Hello! New here, has not been able to find any similar thread. Im trying to reset password to a customers admin center.He still have the old email account, so he will get the code.Now Office 365 asking to send a code to the old phone number. How can he get the code without his old mobile number?I am grateful for all the help for any help I can get",0
+ID180,"Title: Sign into Windows 10 with Office 365 account?
+
+Question:
+Is there a way that we can configure Windows 10 so that users can sign into the PC using their Office 365 account? We have some staff using shared PCs at a temporary branch office. We don't want to go through all the trouble of adding a server, creating a domain, etc. Thanks!",1
+ID181,"Title: Accounting spreadsheet
+
+Question:
+Hi! I am using an excel sheet to track my transactions, and I'm trying to make it a little less work while inputting things. However, I can't seem to get a function to do the math I need. I'm trying to get the following formula to ADD cells C3 and D5 because the cells B3 and B5 say N. I want it to ignore row 4 completely because B4 is not N. So the result should be $0. I am grateful for any and all assistance here. 🙂",1
+ID183,"Title: Merge user account on-prem and 365 account using Powershell
+
+Question:
+Hello, We have a user called dan claton who has an on-prem AD username of Dclayton and was not in the sync OU. A technician then created a O365 account for a mailbox dan.clayton@ and this has now been used for over two years. Can we merge these entries so the user signs in with the on-prem details but still uses the O365 licence and mailbox?",0
+ID193,"Title: Office Scripts Automate Tab Missing
+
+Question:
+Having followed the guidance https://support.microsoft.com/en-us/office/office-scripts-settings-in-microsoft-365-19d3c51a-6ca2-40ab-978d-60fa49554dcf?ui=en-us&rs=en-us&ad=us and allowed approx 72 hrs since enabling Office Scripts for users, I am still unable to see the automate tab in the ribbon or ribbon overflow in Excel. I am hoping to create a script that I can trigger from Power Automate, but am unable to as the tab does not appear. I have searched online and this forum, and have been unable to find a solution. Any suggestions would be gratefully received.",0
+ID213,"Title: Windows Sound Problem
+
+Question:
+Hello,I am using windows sound control now but have a lot of problems. I am using Steinberg UR24C and Focusrite as soundcards.I have three speaker systems connected, one for my computer, one for music production and one for home cinemaWindows detect these but most of them gives no sound when selected. I therefor am lookiing for a replacement of windows sound control.Any who have similar problems and can hint me for a good replacement program?Regards, Bernhard",0
+ID235,"Title: Outlook will not open without an internet connection
+
+Question:
+Hi I am subscribed to Office 365 for some time now. For the first time this evening my internet connection failed and for some reason I am unable to access outlook. I then activated hotspot on my mobile to receive wifi on my PC and once connected the outlook worked again. If I turn off the internet connection again I am no longer able to open Outlook. What is causing this problem or is this limitation set by the office 365 package?",0
+ID244,"Title: MS365 local internet egress
+
+Question:
+Hi,I'm trying to figure out the correct configuration for DNS when deploying M365. In a local office, the set up is: private network -> on-premise DNS server -> firewall -> ISP router -> Internet When resolving M365 endpoints for geographic locations, should the on-premise DNS server be configured as a resolving DNS server or should it be configured as a forwarding DNS server pointing to an ISP provided DNS server? I'm guessing that if it is configured as a resolving DNS server then the source IP address in any DNS query will be the public IP address of the ISP router which should be ideal from a Geo-DNS lookup viewpoint. But I'm not sure - any advice is welcome. Regards,AC",0
+ID247,"Title: Video Conference Setup in Teams
+
+Question:
+Hi everyone! We adopted O365 Business Premium in our organization last February. Everything works fine from licensing office apps to file-sharing, collaboration, videos and chats. We're now exploring the video conferencing setup in our main office and branch offices. He have initial hardware (camera with mic and speakers, monitors to view) but I'm pretty sure we're missing something which might be the MTR (Microsoft Teams Room). If we do not have this license, how can we make our setup work? My thinking now is have the attendee connect his laptop to the devices and join the meeting.",1
+ID251,"Title: How to get data from Pivot Table (data file enclosed)
+
+Question:
+Dear All, I have one Pivot Table in which all fields are in ROWs section.What I need is to extract information of Data_Bank fields which have Ongoing status in corresponding Data_Organized Field.",1
+ID254,"Title: Iphone 18 pro max order processing for more than a month.
+
+Question:
+I placed an order for the iPhone 18 Pro Max on September 12th and the order is still processing. The delivery date was changed again and the order is still processing; when I reached out to support, they said everything looks good on their side, but the order is still stuck at processing. What should I do?",0
+ID265,"Title: Iphone 18 not working in EU
+
+Question:
+US purchased unlocked Iphone 18 pro Max is not working in Poland, Europe with orange carrier even though esim is installed.All steps AI suggested have filed.",1
+ID274,"Title: Audio specifications for iPhone 18 Pro Max and iPhone Duo
+
+Question:
+What are the audio chain specs on the iPhone 18 Pro Max vs. the iPhone Duo? What audio chips are used in each device and what bit rate and sample rates are allowed for playback?",0
+ID280,"Title: iPhone 18 Pro price discrepancy between Apple's website and the app
+
+Question:
+why does it say on official website of Apple that the iPhone 18 Pro costs $1199 but in the app it says €1489[Re-Titled by Moderator]Original Title: buy iphone",0
+ID320,"Title: How do I remove AI from my iPhone 18 Pro Max?
+
+Question:
+how do i remove AI from my iPhone 18 pro max[Re-Titled by Moderator] Original Title: Removing AI",1
+ID341,"Title: iPhone 18 Pro accessibility reader automatically lowers volume
+
+Question:
+My accessibility reader lowers the volume automatically when it starts reading. I checked all the settings. On a positive note. It doesn’t skip anymore with car play. I have iPhone 18 pro 27.0.1 iOS",0
+ID350,"Title: Face ID unavailable IPhone 18 Pro Max
+
+Question:
+Just received the iphone 18 Pro Max and set up for Face ID, isnt working. It has most recent update, and I’ve restarted it. The set up immediately gives me a “Face ID is not available” as soon as my face is within the frame. Weird thing, is if my face is out of frame it stays open, then immediately shuts down when I’m in frame. Help!",0
+ID360,"Title: iPhone 18 purchased in Thailand: Cellular, SIM, and warranty support in Israel
+
+Question:
+I am planning to purchase an iPhone 18 PRO in Thailand and intend to use it as my primary device in Israel. Could you please confirm the following details?1. Cellular Band & Carrier Compatibility: Will the iPhone 18 PRO model sold in Thailand (official Apple Store / Authorized Resellers) fully support the cellular bands and eSIM/nano-SIM features used by mobile carriers in Israel?2. ⁠Does the iPhone 18 PRO model sold in Thailand support a physical SIM card, or is it eSIM-only?3. Official Warranty in Israel: Does the standard 1-year Apple Limited Warranty cover hardware repairs or service at Apple Authorized Service Providers (AASPs) in Israel?4. AppleCare+ Coverage: If I purchase AppleCare+ for this device, will I be able to claim repairs or accidental damage coverage through authorized service centers in Israel?Thank you for your help!",0
+ID364,"Title: iPhone 18 Pro finish worn glossy by Apple Wrist Strap
+
+Question:
+I'm using an iPhone 18 Pro with Apple's TechWoven Case with MagSafe and Apple's Wrist Strap. I attached the strap as described in Apple's support article: the cord loop goes from the outside through one of the small openings at the bottom corner of the case, then back out through the second opening.This means a short piece of the cord sits between the inside of the case and the phone. After about 1–2 weeks of normal use, I found two shiny spots on the bottom edge of the frame, right where the cord touches the phone. The matte finish there has been polished glossy. It's not residue: the spots are still there after wiping with an alcohol wipe.Both the case and the strap are Apple accessories, attached the way Apple instructs, so I didn't expect them to wear down the phone's finish.- Has anyone else seen this with the Wrist Strap or the Crossbody Strap?- Has Apple acknowledged this or offered a fix?- Any tips to stop it from getting worse, like putting a protective film at the contact point?",0
+ID367,"Title: Stop Smart Invert from auto-enabling on iPhone 18 Pro
+
+Question:
+To prevent Smart Invert from “mysteriously and automatically” enabling on an iPhone 18 Pro, do this: Settings > Accessibility > scroll down to the General section > Accessibility Shortcut > deselect Smart Invert.",0
+ID373,"Title: People cannot hear me during calls – iPhone 18 Pro Max
+
+Question:
+I’m having a problem with phone calls on my iPhone 18 Pro Max. During calls, people sometimes cannot hear me properly or my voice cuts out for them.The problem occurs both when I use the iPhone normally (without headphones) and when I use my AirPods.Interestingly, restarting the iPhone temporarily fixes the problem, but the issue comes back later.Could this be a software issue with iOS, or could there be a problem with the iPhone’s microphone or network/SIM?Should I wait for a future iOS update to see if it is fixed, or should I take the iPhone to an Apple Authorized Service Provider for diagnostics?The iPhone is running the latest available version of iOS, and my SIM is a physical Yettel SIM.Any advice would be appreciated.",0
+ID377,"Title: iPhone 18 Pro Max pre-order monthly payment error
+
+Question:
+Subject: iPhone 18 Pro Max 1TB Pre-Order – Monthly Payment ErrorHello Apple Support,I’m trying to pre-order the iPhone 18 Pro Max 1TB and pay for it through the 30-month interest-free monthly payment option.However, when I reach the payment section, I receive the message: “An error has occurred. Please try again later.” I’m unable to proceed with the order.Could you please check whether there is an issue with the monthly payment option and advise me on how I can complete the pre-order?The total order amount shown is £1,899.00.Thank you for your assistance.",1
+ID399,"Title: iPhone 18 Pro Max battery life, overheating, and facial recognition issues
+
+Question:
+battery life on my 18 pro max is the same as my 15 pro max… the phone gets extremely hot, i tried to have my digital drivers license verified through the facial recognition process and i was denied because they didn’t recognize me 😂 even though it was on my 15 already. On 10/1/2026 my 18 pro max screen froze and shut off… I had to turn back on… it didn’t even reboot on its own. I hope 🤞 this “bug” gets resolved… specially because it was very expensive to upgrade and I already traded in my perfectly good phone.[Re-Titled by Moderator] Original Title: Neta",1
+ID456,"Title: Moms Iphone 18 pro max has the old Siri instead of Apple intelligence or Siri ai
+
+Question:
+my mom just got the iphone 18 pro max and she did a data transfer from her 14 pro max, andd then somehow the old siri came along with it instead of apple intelligence or the new Siri ai , so how do i make her phone have the new Siri AI or Apple intelligence, some step by step tutorials would be nice, thanks",0
+ID461,"Title: Unable to edit StandBy clock face color on iPhone 18 Pro running iOS 27
+
+Question:
+iPhone 18 Pro on iOS 27.0 is not allowing me to edit the color of the clock face when phone is charging and in StandBy mode. I am able to edit the picture screen in StandBy by long-pressing down, and I can change the widget screen in StandBy by long-pressing down. However, long-pressing down in the clock screen on StandBy does not trigger anything. I have tried turning StandBy on and off again, it did not work. I have tried disabling FaceID and password so that I have access to permissions to edit StandBy mode, and I can only edit the picture screen and the widget screen. I have tried restarting my phone. Nothing has worked, and I think that it is a bug with iOS 27.",0
+ID467,"Title: iPhone 18 Pro Health app not showing weekly steps bar chart
+
+Question:
+My new iPhone 18 Pro within the Health app won’t show the bar chart for steps on the weekly view. The daily and monthly and 6M and yearly does show the bar chart and all steps for every day. Yet my data for the day and all days for the week is in the system - but just won’t show the bar chart on the weekly view. Any thoughts?",0
+ID470,"Title: Unable to update iPhone to iOS 18
+
+Question:
+I cant get ios 18 to update to my iphone[Re-Titled by Moderator] Original Title: Ios trouble",1
+ID473,"Title: Can iPhone 18 Pro record ProRes to an external APFS SSD?
+
+Question:
+Can the iPhone 18 Pro use an external SSD formatted to APFS to record ProRes?",0
+ID475,"Title: iPhone 18 Pro Max audio output randomly switches when using USB-C to AUX cable
+
+Question:
+On my Iphone 18 Pro Max when using a USBC to AUX cable after listening for maybe 10 minutes through it my IPhone randomly switches to outputting audio through the phone for half a second then back to the cable. This pauses the music and when I press play it does it a second time usually. Only had problems with my new phone, my 16 worked just fine with jt.",0
+ID501,"Title: Can I force 120Hz on iPhone with iOS 18?
+
+Question:
+Is there any way to force 120hz on IPhone? IOS 18 is pretty aggressive, 80hz through the whole system which is a shame compared to my Xiaomi 13.. Feels way slower than it should be :/[Re-Titled by Moderator]",0
+ID507,"Title: downgrade iphone ios18.1.1 to 18
+
+Question:
+downgrade iphone ios18.1.1 to before version",0
+ID512,"Title: How do I reset Advertising Identifier on my iPhone with iOS 18?
+
+Question:
+as title suggests i want to reset adID on my iPhone ios 18[Re-Titled by Moderator]",0
+ID527,"Title: Issue with iOS 17.4 upgrade
+
+Question:
+I recently upgraded to iOS 17.4 and now my corporate iPhone is constantly trying to pair with my personal Apple Watch that is already paired with my personal iPhone. I’ve looked and can’t find the setting to turn this off. Let me know if anyone has any guidance.",0
+ID533,"Title: Copy/paste between Apple devices stopped after iOS upgrade
+
+Question:
+HelloSince a couple of iOS upgrades ago, I can no longer copy and paste text between my Apple devices. This was extremely useful to me.Is there some setting I need to check in order to make this work again? I can't believe Apple would remove this feature.Thanks",0
+ID546,"Title: iOS 27.0.1 upgrade issue with apple car pay
+
+Question:
+iOS 27.0.1 upgrade issue with apple car pay. Apple Map keeps freezing up. I have to disconnect my phone from the car so I can interact with Apple map then plug my phone back in to view the map on my Honda screen. Has anyone experienced similar issue, and how to fix it?",0
+ID550,"Title: How do I undo an IOS upgrade?
+
+Question:
+After upgrading to IOS 26.3 my phone will no longer let me add appointments to my calendar Siri no longer worksCan't use voice recorder for text messageIs there a way to undo upgrade?",0
+ID555,"Title: IOS upgrade trash email accounts
+
+Question:
+iPhone 15, upgrade to 26.5. This upgrade and the last 3 have all made the native Mailapp have issues. This time, thousands of email from my inboxes on my Yahoo accounts were moved to the trash folders. On the phone and on the Yahoo servers.After every upgrade, known good email addresses are coming back with “invalide email address” errors.how can I prevent IOS upgrades from trashing my emails?",0
+ID566,"Title: How upgrade ios 14?
+
+Question:
+How to upgrade to Ios 14 in phone iphone 6plus ?",0
+ID577,"Title: Has anyone had recent issues with HomePods following IOS 26 upgrade?
+
+Question:
+Since upgrading to iOS 26, my stereo HomePods have started playing music at random times, especially at night, which is very annoying. I’ve tried plugging and unplugging the units and resting them all, but nothing seems to work. Any suggestions?",0
+ID585,"Title: Low Headphone Audio since IOS 26.4.2 Upgrade, is there and will there be a fix?
+
+Question:
+Low Audio since IOS 26.4.2 Upgrade: Headphone Audio significantly lower since upgrading to IOS 26. The newer IOS is definitely the culprit. Have modified all of the settings, removed all of the safety features and it still is not even close to what it used to be. Even tried various new headphones and same result. Is there a fix? *** This situation has my son with autism really stressed and any help would be appreciated.[Edited by Moderator]",1
+ID588,"Title: I want to upgrade iOS
+
+Question:
+I will like to upgrade my iPhone ios",1

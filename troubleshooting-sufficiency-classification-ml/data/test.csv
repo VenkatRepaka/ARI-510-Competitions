@@ -1,0 +1,201 @@
+id,text
+ID2,"Title: Outlook email account Disconnected
+
+Question:
+About two days ago, one of my email accounts in Outlook stopped working. It's now saying disconnected in the lower info section. I can get the email on my phone and the web, but not in Outlook anymore. I've tried toggling the Work offline button but it still doesn't come on. When I toggle it, it will say trying to connect. But it never does. It's trying to connect to Microsoft Exchange. I have another account that is the main email I use. I tried to delete the one that's not working, but it said that I would have to delete the main email account. I don't want to do that. Any thoughts?"
+ID4,"Title: Outlook keeps asking for password
+
+Question:
+Hi, we are having an issue with Outlook with an Office365 account on some user. the password prompt are keep on showing. I tried running SARA, update windows 10 and office apps, create new profile, remove all credentials from credential manager, do the registry thing, disable antivirus but everything does not work."
+ID12,"Title: Outlook rule(s) creation date
+
+Question:
+Hi, Is it possible that I can find the creation date of Outlook rules? My colleague's email password was hacked and someone added the new rule on his Outlook, he didn't know it before but recently he got something strange, he got a lot of bounce back emails but he doesn't know the sender, then he checked the rules on Outlook and found there a rule was added on it, I assisted him to delete the rule immediately and then I told him that the email password was hacked by someone. After that, my colleague hopes to know when to create that rule, so is it possible if there is a way that we can check the creation date of rule(s), many thanks. Below link is good, but a guy mentioned we need to enable email log if we want to check the rule(s) creation date but not sure it works or not. https://www.codetwo.com/admins-blog/managing-outlook-rules-powershell/"
+ID15,"Title: Outlook Classic issues
+
+Question:
+Without any changes being made to my system, I am suddenly getting the following error message when trying to send/receive mail. Task 'email address removed for privacy reasons: Folder:Inbox Check for new mail.' reported error (0x800CCC0E) : 'Outlook cannot download folder Inbox from the IMAP email server for account email address removed for privacy reasons. Error: Cannot connect to the server. If you continue to receive this message, contact your server administrator or Internet service provider (ISP).'I have followed all of the suggested solutions that I could find including editing the registry but nothing is working. Hope someone can help as thjis is a big problem for me."
+ID20,"Title: Microsoft Account Login
+
+Question:
+HI All I recently reinstall windows on the same PC where I had my Microsoft account as a default. During the set-up process I wasn't able to create Hello Pin so I used another Hotmail account and also choosing to go offline option having tried several times with the Microsoft account which I have set-up as a profile but cannot login using my Microsoft account as nothing happens when I click on sign in with no option prompt to sign in. I have checked my Microsoft, but no issues found through troubleshooter as I'm logged into the account submitting this support discussion not via windows profile account.I can't work out why I'm no longer able to login using my Microsoft account.Help on this would be appreciated.Regards, Sergio"
+ID26,"Title: Microsoft Account Access Blocked Due to an Old Encoded Full Name
+
+Question:
+Hello,I am experiencing a serious issue with my Microsoft account.When I sign in, Microsoft still shows my old email address and old phone number as security information, even though I have already added a new phone number, a new Outlook email address, and updated recovery information.After signing in, many Microsoft pages do not work correctly. The page often becomes blank, reloads continuously, or signs me out and back in repeatedly.When I click on Account or Your Info, I get a white screen and the page enters an endless loop. Because of this, I cannot access the account settings page.I believe the issue is related to an old encoded full name that I set on the account years ago. I need to change my full name and remove the encoded text, but I cannot access the profile page to do it myself.I am not requesting account recovery. I can still access the account, but I need a Microsoft support agent to manually review my profile and help correct or reset the full name information so I can access my account settings again.Thank you for your assistance."
+ID30,"Title: ControlTipText no longer supports multiline text / wrapping in Access 2608
+
+Question:
+I’ve noticed what appears to be a recent regression in Access concerning the ControlTipText property.Previously, embedded line breaks such as:.ControlTipText = Line 1 & vbCrLf & Line 2 & vbCrLf & Line 3displayed as a multiline tooltip.In current builds, the vbCrLf is still present in the property value but is ignored when the tooltip is displayed, so the text appears on a single line.I also tested automatic wrapping with:.ControlTipText = String(70, A) & & _ String(70, B) & & _ String(70, C)and the tooltip does not wrap at all; it simply continues horizontally off the right-hand side of the screen.I confirmed that the line-break characters are still stored by using Replace(ControlTipText, vbCrLf, <CRLF>), which finds and replaces them correctly. I also tried vbLf and Chr(13) & Chr(10) with the same result.The issue is present in:Microsoft Access for Microsoft 365Version 2608Build 16.0.20326.2013264-bitIt was also present before updating to this build.This looks as though the tooltip itself is no longer being configured for multiline/wrapped display, rather than Access altering the contents of the ControlTipText property.Has anyone else seen this, or can Microsoft confirm whether it is a known issue?"
+ID33,"Title: Why Don't Tasks Assigned To Me in Microsoft Planner Don't Show Up in To Do?
+
+Question:
+I have two plans set up in Microsoft Planner. When I assign tasks to myself in one of the plans they show up as assigned to me in Microsoft To-Do, however in the other plan which is in a different group that I'm a member of, the tasks assigned to me do not show up in Microsoft To-Do. Why is it they show up from a plan in one group but not from plan in another group?"
+ID35,"Title: SharePoint - Stop sharing - new behavior or new bug?
+
+Question:
+It used to be possible for a user with Contribute permission in a library to upload a file, share it, and the stop sharing it.The result of sharing the file would be that unique permisions then apply to the file. That is, it would no longer inherit permissions from its parent container.If the user then stopped sharing the file, permisisons would be reset and again inherit permissions.This behavior has very recently changed. The person with Contribute permission who shared it can no longer stop sharing it (the Stop sharing button is grayed out).Only someone with Full Control permission can stop sharing it, and if they do, permissions for all members are removed from the fiile except for the site owners group. A user reported this new behavior to me after accidentally sharing with the wrong person, and being unable to undo their mistake.Anyone else concur with my understanding of this being a new behavior?"
+ID49,"Title: Word and Excel stuck in Read and Print mode only
+
+Question:
+I have M365 Family Plan and one of my devices can't use Word or Excel. App tells me they are in Read and Print mode only. I have attempted multiple times to get support to resolve this via chat sessions, but they are unable to help. They have escalated this to Tier 3 Support and still no help. They recommended I go here for support. Here are some of the details. Case Number: 7108165505 (current one)Microsoft 365 Family subscriptionWord and Excel opening in Read Only / Print mode on one Windows 11 desktopError when accessing the subscription management pagePrevious escalation to Tier 2 and Tier 3Case marked as Resolved despite the issue remaining unresolvedNote that extensive troubleshooting has already been completed and that you believe the issue may be related to subscription validation or account provisioning rather than the local Office installation."
+ID97,"Title: (Dataverse) Selective Power query?
+
+Question:
+Hi,I am new to using Dataverse and power query.I am currently use two excel files - one for material data source and other for partlist.So far, no trouble, but with growing number of materials.I want to change the excel data source to Dataverse.Background:Using an excel file as main material data source.Other excel file uses XLOOKUP to find the item code to pull item details.Material data is growing (so far 5,000 rows). Thinking to change the data source to Dataverse.Questions:I understand by creating query connection - the data needs to load into the target file then I can use XLOOKUP to query table.But I want it to selective - instead of all 5,000 data to be pulled into file.Can the power query be selective based on the item code that was used on the partlist?*like below imageSelective powerquery?Thank you in an advance."
+ID110,"Title: AutoSave keeps turning off after updating O365
+
+Question:
+Hi , Autosave keeps turning off and when I try to turn it on, its asks to login to Onedrive and makes another version. this has started after updating the office to version 2211 (Build 15831.20252 Click to Run)"
+ID121,"Title: Form questions in wrong order in Excel download
+
+Question:
+Hi, My form questions and answer download to my spreadsheet in to a different order, mixing up question categories. I do not have the option to sync to a new workbook available to me. I have also tried signing in and out. Please advise how I can fix this issue. DingkunXie ThanksSimon"
+ID143,"Title: Excel 2016 crashes when click 'Insert' tab
+
+Question:
+My Excel 2016 32 bit crashes without any error message when I click the 'Insert' tab ( to the right of the 'Home' tab. The tab is visible for 3 seconds then it crashes.I have tried launching Excel in safe mode.I have tried repairing Office.This seemed to happen after I added the People Graph add-in, not sure what do to. I'd rather not delete my profile and try it again.I can't see the Add In in Excel. Any ideas what to do?"
+ID201,"Title: Pivot table missing sheet errors
+
+Question:
+I have prepared dashboard using a data source. While doing so i prepared few pivot tables from different data sheets where appropriate data was store. Now due to continuous improvement of the dashboard, i removed, merged sheets to form a consolidated single sheet which is my data source. Problem is, now when i make changes to the data, i use Refresh all from pivot table menu, i get errors about missing sheets which i used during the process.Question : Is there way to clear these invalid errors and have seamless refresh all option ?"
+ID222,"Title: Narrated Powerpoint exporting to MP4 - No sound
+
+Question:
+Why when I try to export a narrated powerpoint to MP4 is there no sound. Microsoft have done all their checks and they don't know why it is working. I have the latest updates."
+ID230,"Title: Timestamp Internet Headers for Office 365
+
+Question:
+I have noticed after moving to Office 365 email, the Internet headers time stamp is now GMT, for example, Fri, 13 Sep 2019 21:37:03 +0000. When I am still in onprem, the time stamp is in PST, for example, Tue, 20 Aug 2019 10:47:03 -0700. How do I change the time stamp back to PST for Office 365."
+ID231,"Title: Office 365 no internet error
+
+Question:
+Outlook just stopped working yesterday. I have been using 356 for a couple of years now. One drive and Outlook both say I don't have internet access. Obviously I do. I can use one drive and outlook via a web browser, but not the desktop apps. I have tried most of the suggested fixes and nothing has worked. Anyone else having issues?"
+ID243,"Title: Excel Macro to include Internet Explorer
+
+Question:
+I need to create and run an Excel Macro that will go out to Internet Explorer and grab (copy) and then paste page results to the Excel workbook. Any help would be appreciated."
+ID248,"Title: Adding a date to a cell if a % value is added to the adjacent cell
+
+Question:
+I'm working on a scope doc to update when tasks have been started or completed. I want to add a date when the task has started / completed in say cell H5 when I input a percentage into G5. I want it to be todays date that is added to H5. How can this be done?"
+ID260,"Title: I phone 18 music I tunes issue
+
+Question:
+Got new I phone 16 1 week ago running iOS 18.3.1. Have on I tunes over 250 cds have loaded over years and also playlists from downloaded music When connected I phone to p c not only did music not transfer from p c to new I phone but I tunes wiped out all the cds on the pc. Now won’t transfer any music!"
+ID276,"Title: Pre order iPhone 18 Pro Max
+
+Question:
+Hello,how does the pre order for iphone 18 pro max work,when will get delivered or can I pick it up from the Apple store?And do I have to order it within 10 minutes after the preorder starts to get it on 18 September or can I buy it from a store on 18 September,thank you!"
+ID286,"Title: iPhone 18 pro standby mode
+
+Question:
+iphone 18 pro standby mode doesn’t allow me to change color"
+ID289,"Title: When are you people going to fix this problem with the iPhone 18 pro and the iPhone 18 pro max...
+
+Question:
+When are you people going to fix this issue with the iPhone 18 pro max my new phone is stuck in sos mode but when I go to settings it is off I can’t call out or anything on just on my social media I can use it this is the second iPhone I got that is giving me trouble **** Apple yall will lose customers [Edited by Moderator]"
+ID311,"Title: iPhone 18 Pro getting unusually hot
+
+Question:
+Is anyone else experiencing the new iPhone 18 Pro getting unusually hot?? Only had the phone for 24 hours but it gets really hot, seemingly at random - meaning the camera isn't on or even a lot of apps open. at one point i felt it in my shirt pocket and there was only 1 app open on the phone. is this happening across the board or should I be opening a ticket with Apple."
+ID319,"Title: Discolouration of IPhone 18 pro
+
+Question:
+discolouration issue near lidar scanner in iphone 18 proplease guide because within days of purchase it was happened please guide for replacement of phone"
+ID336,"Title: Extremely Hot IPhone 18 ProMax
+
+Question:
+My Brand New IPhone 18 ProMax EXTREMELY HOT, My IPhone 15 Pro NEVER DID THAT IN OVER 4 Years. WHATS GOING ON HERE"
+ID337,"Title: iPhone 18 Pro Max speakers are quieter with less bass
+
+Question:
+the spikers on 18 pro max soud clear but quieter compared 17 pro max and with less bass"
+ID375,"Title: Why does my phone 18 pro keep popping/tapping even after being replaced?
+
+Question:
+Hello community,First time poster 👋🏼. Had a question for you all. I recently got 18 pro (on launch day) (not max) after having my 10 since it came out. I noticed on the 18 pro I would hear random tapping/popping/zapping at a low tone. The frequency of this occurrence was increasing only after week and half of having the phone. I took it into an Apple Store to which they also heard it. They told me they didn’t have the tools to open the 18pro yet(for about another month and half) so they offered to replace it. I took that option. Well….it’s still happening. Only this time it’s more audible. Is it software causing the noise? Can’t be hardware can it? From two brand new phones is nuts. Do I just wait for the next update? The last update (27.0.1) did not address/fix the issue"
+ID383,"Title: Availability of iPhone 18 Pro Max 1TB burgundy for pickup
+
+Question:
+Hi! I need help checking the availability of a specific iPhone at an Apple Store.I’m looking for an iPhone 18 Pro Max, 1TB, Burgundy, and I specifically want to purchase it with Store Pickup at the Apple Store on Lincoln Road in Miami Beach.Could you please check the current inventory and, if possible, let me know when this exact configuration is expected to become available for pickup at that store?"
+ID387,"Title: Carplay now not working since upgrading to iphone 18 pro
+
+Question:
+I have just upgraded to the iphone 18 pro (poor decision so far). CarPlay was working perfectly but now pixelates when using maps. I have followed all the trouble shooting online but no further forward. I have a Mercedes A-Class 2017. I have the same issue if it’s wired or wireless. I have wiped it both on the phone and car and started again but still same issues. I find lots of things to try but no resolutions. Please help"
+ID390,"Title: Can I convert an Apple Card purchase of iPhone 18 Pro Max into monthly installments?
+
+Question:
+If I buy an iPhone 18 Pro Max using my Apple Card, can I convert the transaction into monthly installments after the purchase?[Re-Titled by Moderator] Original Title: Regarding new iPhone purchase"
+ID398,"Title: apple iphone 18 pro max burgundy camera case got discoloration
+
+Question:
+Received my new apple iphone 18 pro max burgundy around camera back case got discoloration. This is a manufacturing defect? What options I have other than going Apple Store to check it out?[Edited by Moderator]"
+ID405,"Title: No Apple Intelligence on iPhone 18 Pro Max, how to get access/activate it?
+
+Question:
+On my new iPhone 18 Pro Max on iOS 27.0, Apple Intelligence does not appear in the Settings app. On my previous 17 Pro Max, there was an ""Apple Intelligence & Siri"" setting, but now it just says ""Siri"" on my new phone. How can I activate Apple Intelligence on my iPhone 18 Pro Max?"
+ID420,"Title: iPhone 18 Pro Max order still in process after the expected arrival date
+
+Question:
+I’ve ordered my iPhone 18 pro max on the 19th of September with the arrival date being 13th -20th of October and it’s still stuck in process,with ppl that date did yall get any update this morning [Re-Titled by Moderator] Original Title: Update status changed"
+ID441,"Title: How will active daily use affect the iPhone 18 Pro’s aperture lens over time?
+
+Question:
+How will the iPhone 18 Pro’s aperture lens be affected by repeated shock from filming outdoor physical activities?My main concern is filming while snowboarding, especially when recording park jumps. The phone would not necessarily be taking a direct impact, but it could still experience repeated abrupt shock as the rider lands.With the expected mechanical aperture system in the iPhone 18 Pro, could this type of repeated loading have any effect on the moving camera components over time? I am curious whether repeated hard landings could contribute to wear, affect calibration, or create durability issues that would not exist with a fixed-aperture lens."
+ID466,"Title: Combining Apple gift cards and Apple Card Monthly Installments for iPhone 18 Pro Max
+
+Question:
+I have Apple gift cards that I can apply toward the iPhone 18 Pro Max, and online I may use up to 8 cards. I realize I cannot use an ACMI plan if I choose a gift card. Should I call GS to convert the remaining balance to ACMI, or should purchase it in-store?"
+ID477,"Title: Unable to see pick up store availability for iPhone 18 Pro Max pre-order in Dubai
+
+Question:
+i want to pre order for iphone 18 pro max in dubai but it can’t show pick up store availability [Re-Titled by Moderator] Original Title: Pre order"
+ID480,"Title: My iPhone 18 Pro Max speaker sounds raspy during calls but not when listening to music or talking normally...
+
+Question:
+Why does my 18 pro max when calling someone using the speaker sound raspy but listening to music and talking to someone is absolutely fine [Re-Titled by Moderator] Original Title: 18 pro max speaker"
+ID492,"Title: iPhone 18 Pro order cancelled after payment — Apple Noida store & helpline have no explanation
+
+Question:
+I need help understanding what happened with my order (***) for an iPhone 18 Pro 512GB with a trade-in, placed in-store at Apple Noida (DLF Mall of India) on 21 Sept 2026.I completed the purchase in person and was told to come back for pickup between 16:00–16:15. When I arrived on time, I was told the order had been cancelled — with no explanation. I ended up waiting at the store for close to 3 hours while staff tried to figure out what happened.My credit card was charged the full ₹1,66,900. When I finally got through to the Apple helpline, the representative could only vaguely say that Apple doesn't allow purchasing more than 2 Apple products per Apple ID in a year — something I was never told at any point before or during the purchase.To make it worse:The order doesn't show up anywhere in my Apple ID order history.The order status page just vaguely says a refund ""may"" have been issued if I already paid — no confirmation, no reference number.The store manager had no idea why the order was cancelled either.Has anyone else run into this ""2 products a year"" limit? Is this a real, documented Apple policy, or something being applied inconsistently? And more importantly — has anyone successfully gotten a refund confirmation and resolution after something like this? Any guidance on escalating this properly within Apple would help.[Edited by Moderator]"
+ID494,"Title: iPhone iOS 18 control center icon.
+
+Question:
+There are new icons in the Control Center on my new iPhone 15 Pro running iOS 18. This one is unknown to me and I cannot find it's meaning so far on Apple's support sites. I don't see any obvious action when I turn it on or off. Does anyone know what this icon is?"
+ID504,"Title: Downloading ios 27 to ios 18 in iphone 13
+
+Question:
+Hello Apple Support,I have an iPhone 13. It originally had iOS 18, but I updated it to iOS 26 and later to iOS 27.I really want to return to iOS 18.Is it possible to request a device-specific SHSH2 signing ticket or receive special authorization to restore iOS 18?I understand that iOS 18 is currently unsigned, but I would appreciate any official assistance or alternative solution.Thank you.To: ***[Edited by Moderator]"
+ID521,"Title: iPhone Mirroring and iOS 18
+
+Question:
+I've just updated my iPhone to iOS 18 and my iMac to macOS 15 and wanted to give iPhone Mirroring ago. Since updating my iPhone I added the new security feature to my X and Photos app which now requires FaceIdD when going to unlock them. When I try to access these apps via iPhone Mirroring it asks me for a passcode, I have tried the passcode I use to unlock my iPhone, the password to unlock my iMac and my Apple ID password but none of these work.Anyone know what I'm doing wrong?Many thanks."
+ID544,"Title: iOS 17.3 Upgrade
+
+Question:
+My iPhone XR is not listed in todays upgrade description which begins with iPhone XS. But the system sent me the link for this upgrade. I’m afraid to click it!"
+ID547,"Title: Upgrading iOS 15 to iOS 16
+
+Question:
+I want to upgrade my iOS 15 to iOS 16"
+ID569,"Title: ios upgrade
+
+Question:
+How do I get ios 13 on iphone 6?"
+ID578,"Title: Issue After iOS 26 Upgrade on MacBook Air
+
+Question:
+After upgrading to iOS 26 on my MacBook Air, I've noticed an odd issue with my screen display. Before logging in, the login screen looks sharp, bright, and crystal clear, with no problems. However, once I log in, the desktop screen becomes noticeably pale, blurry, and seems to lag. The issue persists even though the login screen initially looks fine. It feels like the brightness or clarity is reduced, almost as if the display is being ""dampened"" after login. It's a bit distracting, as the screen performance changes drastically between the login and desktop views.This issue seems to happen every time I log in, and the display does not return to its original crisp, clean look even after a restart or logging out and back in. The system is running iOS 26, and I’m unsure whether this is a bug with the update or an issue with my system settings."
+ID580,"Title: How to upgrade my iOS 15.8 to iOS 16
+
+Question:
+I want upgrade my iPhone iOS 15.8 to iOS 16, so please if it’s possible help me by upgrading"
+ID586,"Title: upgrading IOS 17.7 to IOS 18
+
+Question:
+can i upgrade With iTunes without backup?"
+ID595,"Title: Gmail folders disappeared with iOS 18.1 upgrade
+
+Question:
+When I upgraded my iPhone 16 to iOS 18.1, alll my mail folders disappeared except for the inbox. They exist on my old iPad and my Mac OS 14.6.1 but are gone on my iPhone. (18.1)."

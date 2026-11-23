@@ -1,0 +1,13 @@
+Fetching 9 files:   0%|          | 0/9 [00:00<?, ?it/s]Fetching 9 files: 100%|██████████| 9/9 [00:00<00:00, 4820.42it/s]
+10/114 questions, 169s
+20/114 questions, 326s
+30/114 questions, 470s
+40/114 questions, 611s
+50/114 questions, 776s
+60/114 questions, 903s
+70/114 questions, 1049s
+80/114 questions, 1315s
+90/114 questions, 1477s
+100/114 questions, 1624s
+110/114 questions, 1785s
+wrote features/prompt_variants_q3.csv

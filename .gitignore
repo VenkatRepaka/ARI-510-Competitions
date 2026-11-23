@@ -5,11 +5,13 @@
 !/what-makes-title-intresting/
 # !/chore-completion-classifier
 !/inline-image-classifier-v-2
+!/troubleshooting-sufficiency-classification-ml
 
 # Generated files inside the project
 .DS_Store
 __pycache__/
 # Competition images (large; download separately)
 inline-image-classifier-v-2/data/images/
+# chore-completion-classifier/data/images
 # Cached Webis embeddings (~128 MB, over GitHub's 100 MB file limit; rebuilt by clickbait.ipynb)
 what-makes-title-intresting/features/webis_mpnet.npz

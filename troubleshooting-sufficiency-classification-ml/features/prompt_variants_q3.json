@@ -1,0 +1,57 @@
+{
+  "model": "mlx-community/Qwen3-8B-4bit",
+  "readout": "first-token softmax; score = P(insufficient) direction",
+  "fewshot_ids": {
+    "ID17": "Yes",
+    "ID350": "Yes",
+    "ID588": "No",
+    "ID113": "No"
+  },
+  "variants": {
+    "v1_bare": {
+      "kind": "yesno_pos",
+      "system": "Answer only Yes or No.",
+      "user": "Support question:\n\"\"\"\n{q}\n\"\"\"\nIs this question sufficient? Answer Yes or No."
+    },
+    "v2_definition": {
+      "kind": "yesno_pos",
+      "system": "You review tech-support forum questions. A question is SUFFICIENT if it provides enough relevant details to understand the issue and begin troubleshooting. It is INSUFFICIENT if it lacks important details needed for effective troubleshooting. Answer only Yes or No.",
+      "user": "Support question:\n\"\"\"\n{q}\n\"\"\"\nIs this question SUFFICIENT? Answer Yes or No."
+    },
+    "v3_negative": {
+      "kind": "yesno_neg",
+      "system": "You review tech-support forum questions. A question is SUFFICIENT if it provides enough relevant details to understand the issue and begin troubleshooting. It is INSUFFICIENT if it lacks important details needed for effective troubleshooting. Answer only Yes or No.",
+      "user": "Support question:\n\"\"\"\n{q}\n\"\"\"\nDoes this question LACK important details needed for effective troubleshooting? Answer Yes or No."
+    },
+    "v4_engineer": {
+      "kind": "yesno_neg",
+      "system": "You are an experienced IT support engineer answering questions on a support forum. Answer only Yes or No.",
+      "user": "Support question:\n\"\"\"\n{q}\n\"\"\"\nBefore you could start troubleshooting, would you need to ask the poster follow-up questions for missing information? Answer Yes or No."
+    },
+    "v5_checklist": {
+      "kind": "yesno_pos",
+      "system": "You review tech-support forum questions. A question is SUFFICIENT if it provides enough relevant details to understand the issue and begin troubleshooting. It is INSUFFICIENT if it lacks important details needed for effective troubleshooting. Answer only Yes or No.",
+      "user": "Support question:\n\"\"\"\n{q}\n\"\"\"\nA support engineer usually needs: (1) the product and its version / device / operating system, (2) a concrete description of what goes wrong or what the user wants, (3) the exact error message if there is one, (4) what has already been tried or the steps that cause the problem, (5) any file or data the question refers to.\nConsidering what this specific issue needs, does the question give enough of this information to begin troubleshooting? Answer Yes or No."
+    },
+    "v6_strict": {
+      "kind": "yesno_pos",
+      "system": "You review tech-support forum questions. A question is SUFFICIENT if it provides enough relevant details to understand the issue and begin troubleshooting. It is INSUFFICIENT if it lacks important details needed for effective troubleshooting. Be strict: many forum posts leave out something important (versions, error text, steps, context). Answer only Yes or No.",
+      "user": "Support question:\n\"\"\"\n{q}\n\"\"\"\nIs this question SUFFICIENT? Answer Yes or No."
+    },
+    "v7_annotator": {
+      "kind": "yesno_neg",
+      "system": "You are one of five human annotators labelling a dataset of technical support questions. Label 0 = sufficient information, label 1 = insufficient information. A question is SUFFICIENT if it provides enough relevant details to understand the issue and begin troubleshooting. It is INSUFFICIENT if it lacks important details needed for effective troubleshooting. Answer only Yes or No.",
+      "user": "Support question:\n\"\"\"\n{q}\n\"\"\"\nWould you give this question label 1 (insufficient information)? Answer Yes or No."
+    },
+    "v8_scale": {
+      "kind": "scale5",
+      "system": "You review tech-support forum questions. Answer with a single digit.",
+      "user": "Support question:\n\"\"\"\n{q}\n\"\"\"\nHow complete is the information in this question for starting to troubleshoot the issue?\n1 = almost nothing to work with, 2 = major details missing, 3 = some important details missing, 4 = mostly complete, 5 = everything needed is there.\nAnswer with a single digit from 1 to 5."
+    },
+    "v9_fewshot": {
+      "kind": "yesno_pos",
+      "system": "You review tech-support forum questions. A question is SUFFICIENT if it provides enough relevant details to understand the issue and begin troubleshooting. It is INSUFFICIENT if it lacks important details needed for effective troubleshooting. Answer only Yes or No.",
+      "user": "Support question:\n\"\"\"\n{q}\n\"\"\"\nIs this question SUFFICIENT? Answer Yes or No."
+    }
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "model": "mlx-community/Qwen3-8B-4bit",
+  "template": "Support question:\\n\"\"\"\\n{text}\\n\"\"\"\\n{question}",
+  "readout": "first-token softmax; score = 1-P(Yes) for yes_is_good, P(Yes) for yes_is_bad (higher = insufficient)",
+  "prompts": {
+    "W1_direct": {
+      "direction": "yes_is_good",
+      "question": "Does this question give enough information to start troubleshooting the problem?",
+      "system": "You are helping review questions posted on a tech-support forum. Answer only Yes or No."
+    },
+    "W2_missing": {
+      "direction": "yes_is_bad",
+      "question": "Is important information missing from this question?",
+      "system": "You are helping review questions posted on a tech-support forum. Answer only Yes or No."
+    },
+    "W3_followup": {
+      "direction": "yes_is_bad",
+      "question": "If you were answering this, would you need to ask the person for more details first?",
+      "system": "You are helping review questions posted on a tech-support forum. Answer only Yes or No."
+    },
+    "W4_reproduce": {
+      "direction": "yes_is_good",
+      "question": "Could you try to reproduce or diagnose this problem using only what is written here?",
+      "system": "You are helping review questions posted on a tech-support forum. Answer only Yes or No."
+    },
+    "W5_role": {
+      "direction": "yes_is_good",
+      "question": "Does this question give enough information to start troubleshooting the problem?",
+      "system": "You are an experienced IT support technician. Answer only Yes or No."
+    },
+    "W6_definition": {
+      "direction": "yes_is_good",
+      "question": "Does this question give enough information to start troubleshooting the problem?",
+      "system": "You are helping review questions posted on a tech-support forum. Answer only Yes or No. A question has sufficient information if it gives enough relevant details to understand the issue and begin troubleshooting. It has insufficient information if important details needed for troubleshooting are missing."
+    },
+    "W7_expert": {
+      "direction": "yes_is_good",
+      "question": "Could an expert reply with a useful answer straight away, without asking anything back?",
+      "system": "You are helping review questions posted on a tech-support forum. Answer only Yes or No."
+    },
+    "W8_next_step": {
+      "direction": "yes_is_good",
+      "question": "Is it clear what the first troubleshooting step should be?",
+      "system": "You are helping review questions posted on a tech-support forum. Answer only Yes or No."
+    },
+    "W9_cause": {
+      "direction": "yes_is_good",
+      "question": "Can you tell what is most likely causing this problem from the information given?",
+      "system": "You are helping review questions posted on a tech-support forum. Answer only Yes or No."
+    },
+    "C1_product": {
+      "direction": "yes_is_good",
+      "question": "Does the question say which product, device or software version is involved?",
+      "system": "You are helping review questions posted on a tech-support forum. Answer only Yes or No."
+    },
+    "C2_symptom": {
+      "direction": "yes_is_good",
+      "question": "Does the question describe exactly what happens, or what the user is trying to do?",
+      "system": "You are helping review questions posted on a tech-support forum. Answer only Yes or No."
+    },
+    "C3_error": {
+      "direction": "yes_is_good",
+      "question": "Does the question include the actual error message (if there is one)?",
+      "system": "You are helping review questions posted on a tech-support forum. Answer only Yes or No."
+    },
+    "C4_tried": {
+      "direction": "yes_is_good",
+      "question": "Does the question say what the user has already tried?",
+      "system": "You are helping review questions posted on a tech-support forum. Answer only Yes or No."
+    },
+    "C5_not_included": {
+      "direction": "yes_is_bad",
+      "question": "Does the question mention a file, screenshot or data that is not included in the text?",
+      "system": "You are helping review questions posted on a tech-support forum. Answer only Yes or No."
+    },
+    "C6_vague": {
+      "direction": "yes_is_bad",
+      "question": "Is the question too short or too vague to act on?",
+      "system": "You are helping review questions posted on a tech-support forum. Answer only Yes or No."
+    },
+    "C7_howto": {
+      "direction": "yes_is_good",
+      "question": "Is this a how-to or general information question rather than a report of something going wrong?",
+      "system": "You are helping review questions posted on a tech-support forum. Answer only Yes or No."
+    },
+    "C8_expected": {
+      "direction": "yes_is_good",
+      "question": "Does the question say what the user expected to happen and what actually happened?",
+      "system": "You are helping review questions posted on a tech-support forum. Answer only Yes or No."
+    },
+    "C9_when": {
+      "direction": "yes_is_good",
+      "question": "Does the question say when the problem started or what changed before it (an update, a new device, a setting)?",
+      "system": "You are helping review questions posted on a tech-support forum. Answer only Yes or No."
+    },
+    "C10_scope": {
+      "direction": "yes_is_good",
+      "question": "Does the question say whether the problem happens everywhere or only on one device, app or account?",
+      "system": "You are helping review questions posted on a tech-support forum. Answer only Yes or No."
+    },
+    "C11_one_problem": {
+      "direction": "yes_is_good",
+      "question": "Is the question about one clear problem, rather than several unrelated complaints?",
+      "system": "You are helping review questions posted on a tech-support forum. Answer only Yes or No."
+    },
+    "C12_repeat": {
+      "direction": "yes_is_good",
+      "question": "Does the question say whether the problem happens every time or only sometimes?",
+      "system": "You are helping review questions posted on a tech-support forum. Answer only Yes or No."
+    }
+  }
+}

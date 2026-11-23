@@ -1,0 +1,14 @@
+W1123 03:10:35.830000 45724 torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+Fetching 12 files:   0%|          | 0/12 [00:00<?, ?it/s]Fetching 12 files: 100%|██████████| 12/12 [00:00<00:00, 6451.12it/s]
+10/114 questions, 177s
+20/114 questions, 327s
+30/114 questions, 454s
+40/114 questions, 578s
+50/114 questions, 743s
+60/114 questions, 853s
+70/114 questions, 1001s
+80/114 questions, 1169s
+90/114 questions, 1290s
+100/114 questions, 1422s
+110/114 questions, 1553s
+wrote features/prompts_v2_q25.csv

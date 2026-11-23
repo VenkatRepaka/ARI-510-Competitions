@@ -1,0 +1,15 @@
+{
+  "model": "mlx-community/Qwen3-8B-4bit",
+  "system": "You are an experienced IT support engineer reviewing questions posted on a tech-support forum. A question is SUFFICIENT if it provides enough relevant details to understand the issue and begin troubleshooting; it is INSUFFICIENT if it lacks important details needed for effective troubleshooting. Answer only with Yes or No.",
+  "prompts": {
+    "sufficient": "Support question:\n\"\"\"\n{q}\n\"\"\"\nDoes this question provide enough information to understand the issue and begin troubleshooting? Answer Yes or No.",
+    "need_more": "Support question:\n\"\"\"\n{q}\n\"\"\"\nWould you have to ask the poster for more details before you could start helping? Answer Yes or No.",
+    "product_version": "Support question:\n\"\"\"\n{q}\n\"\"\"\nDoes the question name the specific product AND its version, device model or operating system? Answer Yes or No.",
+    "clear_symptom": "Support question:\n\"\"\"\n{q}\n\"\"\"\nDoes the question clearly describe what goes wrong (or what the user wants to achieve) in concrete terms? Answer Yes or No.",
+    "error_text": "Support question:\n\"\"\"\n{q}\n\"\"\"\nIf an error or failure is mentioned, is the exact error message or behaviour quoted? (Answer Yes if no error is involved.) Answer Yes or No.",
+    "tried_steps": "Support question:\n\"\"\"\n{q}\n\"\"\"\nDoes the question say what the user has already tried or the steps that lead to the problem? Answer Yes or No.",
+    "missing_attachment": "Support question:\n\"\"\"\n{q}\n\"\"\"\nDoes the question refer to a file, screenshot, data, formula or error that is NOT actually shown in the text? Answer Yes or No.",
+    "vague": "Support question:\n\"\"\"\n{q}\n\"\"\"\nIs the question vague, very short, or ambiguous about what exactly the problem is? Answer Yes or No."
+  },
+  "readout": "next-token softmax, P(Yes)/(P(Yes)+P(No))"
+}
