@@ -50,3 +50,19 @@ The neural network did not beat the SVM. With about 750 training images per fold
 The error review changed how I read the scores. Most remaining errors are fog and raindrop scenes that are labelled both ways, and three identical images carry opposite labels, one of them in validation. The region-based fog features designed from this review carried some signal on their own but added nothing to the full-image embeddings, so I stopped adding features: the remaining errors look like label ambiguity more than missing information.
 
 Difficulties: the first MLP trained its five networks one after another and needed about a minute per fit, which made the 15-fold CV too slow; training all five as one batched module cut this to 14 seconds with the same results. Dev F1 on 118 images is noisy (one image ≈ 0.01), so repeated CV on all 941 labelled images was needed to tell models apart.
+
+What I learned about doing this task well:
+
+Look at the data before modelling. Viewing sample images of each class showed that the clean class contains hard negatives (weather fog, in-focus raindrops on a window, shallow depth of field, dark night scenes). That changed the task from "measure image quality" to "decide whether the camera caused the problem", and it is why models that understand the scene did best.
+
+Image-quality measurement was new to me. To understand the hand-crafted features I had to learn how classic image processing describes a photo: the variance of the Laplacian and Sobel gradients (Tenengrad) as sharpness measures, Canny edge density, the share of high-frequency energy in the Fourier spectrum as a blur cue, clipped highlights and shadows for exposure faults, and the dark channel, saturation and local contrast as haze cues. Computing them on a 3x3 grid as well as the whole image catches problems that cover only part of the frame, such as a finger at the edge. These features alone reached CV F1 0.78, and they added a little on top of the embeddings, but they cannot tell lens fog from weather fog. I also learned small practical details that matter, such as honouring the EXIF orientation tag (158 of 1,177 images were stored rotated, mostly sideways) and that image sizes are written width x height while numpy arrays are rows x columns.
+
+With under 1,000 labelled images, frozen pretrained models plus a simple classifier are a strong approach; training a large network from scratch was not needed.
+
+Ensembles in an MLP were new to me. Training several copies of the same network from different random starting weights and averaging their probabilities gives more stable predictions than one network. I also learned that the copies can be stored as stacked weights and trained together with one batched matrix multiplication, which gives the same results as training them one by one but was about 4x faster. The result above also showed that a neural network is not automatically the best choice on a small dataset.
+
+Evaluate carefully. One validation image changes F1 by about 0.01, so I used 5-fold cross-validation repeated 3 times on all labelled images, chose models on that, fixed every random seed, and checked that each submission file is reproduced exactly when the code is rerun.
+
+Review the mistakes, not only the score. The error review explained where the score stops, showed that the errors were not simply the blurriest or darkest images, and told me when to stop adding features.
+
+Keep experiments organised. Every approach was a set of saved feature files plus one classifier, run by the same script and recorded in the same results tables, which made it easy to compare approaches and to rerun any of them.
